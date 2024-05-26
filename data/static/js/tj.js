@@ -1,0 +1,2 @@
+document.write('<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3II3hRlZcsB0g6Y9",ck:"3II3hRlZcsB0g6Y9",autoTrack:true,hashMode:true})</script>')

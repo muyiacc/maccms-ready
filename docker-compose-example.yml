@@ -1,0 +1,28 @@
+version: '3.3'
+services:
+    maccms:
+        image: esme518/docker-maccms10
+        container_name: maccms10
+        restart: unless-stopped
+        volumes:
+            - ./data:/var/www/html
+        ports:
+            - 8001:80
+        logging:
+          driver: "json-file"
+          options:
+            max-size: "10m"
+            max-file: "3"
+        networks:
+            - my_network
+              #environment: # optional
+              #- DATABASE_HOST=your database host
+              #- DATABASE_PORT=your database prot
+              #- DATABASE_NAME=your database name
+              #- DATABASE_USER=your database user
+              #- DATABASE_PASS=your database password
+
+networks:
+    my_network:
+        external: true
+
