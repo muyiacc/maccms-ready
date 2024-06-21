@@ -34,7 +34,7 @@ return array (
     'param' => 'ac=cj&cjflag=ba7926e618a02bfa5ae37c84cd4cf805&cjurl=https%3A%2F%2Fikunzyapi.com%2Fapi.php%2Fprovide%2Fvod&h=24&t=&ids=&wd=&type=2&mid=1&opt=0&sync_pic_opt=0&filter=0&filter_from=&filter_year=&param=',
     'weeks' => '1,2,3,4,5,6,0',
     'hours' => '00,01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23',
-    'runtime' => 1718983802,
+    'runtime' => 1718987402,
   ),
   'leshi_cj_daily' => 
   array (
