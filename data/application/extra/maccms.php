@@ -360,8 +360,9 @@ return array (
   array (
     'vod' => 
     array (
-      'status' => 0,
+      'status' => '1',
       'charge' => '0',
+      'detail_inc_hits' => '0',
       'pagesize' => '20',
       'imgurl' => 'http://img.test.com/',
       'typefilter' => '',
@@ -372,7 +373,7 @@ return array (
     ),
     'art' => 
     array (
-      'status' => 0,
+      'status' => '0',
       'charge' => '0',
       'pagesize' => '20',
       'imgurl' => '',
